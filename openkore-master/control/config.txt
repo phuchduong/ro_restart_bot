@@ -3,12 +3,12 @@
 
 ######## Login options and server-specific options ########
 
-master
-server
-username
-password
+master International - iRO: Re:Start
+server 0
+username phuchduong
+password rawrrawrrawr
 loginPinCode
-char
+char 1
 
 # Poseidon Settings (http://wiki.openkore.com/index.php/PoseidonServer)
 # They must be the same as Query Server config in Poseidon.txt
