@@ -36,7 +36,7 @@ XKore_ID
 
 # It is not advised to set secureAdminPassword if you're using Xkore 2
 secureAdminPassword 1
-adminPassword jihaseya
+adminPassword cithofri
 callSign
 commandPrefix ;
 callSignGM 0
@@ -740,3 +740,16 @@ logToFile_Messages
 logToFile_Warnings
 history_max 50
 macro_orphans terminate
+
+# Potion Usage
+useSelf_item Novice Potion,Red Potion,Orange Potion,Yellow Potion,White Potion,Monster's Feed,Pet Food {
+    hp < 70%
+}
+
+# use concentration potion
+useSelf_item Concentration Potion {
+    whenStatusInactive Awakening Potion
+    inLockOnly 0
+    notWhileSitting 1
+    timeout 5
+}
