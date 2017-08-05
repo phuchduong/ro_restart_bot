@@ -8,7 +8,7 @@ server 0
 username phuchduong
 password rawrrawrrawr
 loginPinCode
-char
+char 1
 
 # Poseidon Settings (http://wiki.openkore.com/index.php/PoseidonServer)
 # They must be the same as Query Server config in Poseidon.txt
@@ -36,7 +36,7 @@ XKore_ID
 
 # It is not advised to set secureAdminPassword if you're using Xkore 2
 secureAdminPassword 1
-adminPassword cithofri
+adminPassword niprimou
 callSign
 commandPrefix ;
 callSignGM 0
@@ -743,13 +743,13 @@ macro_orphans terminate
 
 # Potion Usage
 useSelf_item Novice Potion,Red Potion,Orange Potion,Yellow Potion,White Potion,Monster's Feed,Pet Food {
-    hp < 70%
+	hp < 70%
 }
 
 # use concentration potion
 useSelf_item Concentration Potion {
-    whenStatusInactive Awakening Potion
-    inLockOnly 0
-    notWhileSitting 1
-    timeout 5
+	whenStatusInactive Awakening Potion
+	inLockOnly 0
+	notWhileSitting 1
+	timeout 5
 }

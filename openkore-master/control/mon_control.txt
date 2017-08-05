@@ -60,7 +60,7 @@
 
 ##### Eggs #####
 Ant's Egg 0 0 0
-PecoPeco's Egg 0 0 0
+Drops -1 0 0
 Picky -1 0 0 0
 Pupa 0 0 0
 Thief Bug's Egg 0 0 0
