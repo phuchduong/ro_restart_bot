@@ -36,7 +36,7 @@ XKore_ID
 
 # It is not advised to set secureAdminPassword if you're using Xkore 2
 secureAdminPassword 1
-adminPassword niprimou
+adminPassword jotratre
 callSign
 commandPrefix ;
 callSignGM 0
@@ -184,7 +184,7 @@ cartMaxWeight 7900
 itemsTakeAuto_new 0
 itemsTakeGreed 0
 
-lockMap moc_fild07
+lockMap prt_fild02
 lockMap_x
 lockMap_y
 lockMap_randX
@@ -752,4 +752,16 @@ useSelf_item Concentration Potion {
 	inLockOnly 0
 	notWhileSitting 1
 	timeout 5
+}
+
+# use steal
+attackSkillSlot Steal {
+	lvl 10
+	sp > 9
+	monsters
+	maxUses 1
+	dist 1.5
+	target_dist < 1.5
+	timeout 0
+	maxAttempts 3
 }
