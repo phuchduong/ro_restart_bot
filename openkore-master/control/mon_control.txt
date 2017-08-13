@@ -60,8 +60,10 @@
 
 ##### Eggs #####
 Ant's Egg 0 0 0
-Drops -1 0 0
+Drops -1 0 0 0
+Fabre -1 0 0 0
 Picky -1 0 0 0
+Poring -1 0 0 0
 Pupa 0 0 0
 Thief Bug's Egg 0 0 0
 
@@ -167,6 +169,7 @@ Detale 0 1 0
 Doppelganger 0 1 0
 Dracula 0 1 0
 Drake 0 1 0
+Eclipse 0 1 0
 Eddga 0 1 0
 Dark Snake Lord 0 1 0
 Garm 0 1 0
